@@ -1,5 +1,5 @@
 .app-container{
-    height:100vh;
+    height:2000px;
   
 }
 /*** Navigation Bar ***/
@@ -202,4 +202,114 @@ header{
             font-size:14px;
         }
 /*** our partners ***/
+.our-partners{
+    position: relative;
+    width: 1076px;
+    height: 127px;
+    top: 88px;
+    left:80px;
+}
+    .our-partners > p{
+        text-align: center; 
+        font-size: 36px;
+        line-height: 24px;
+        font-weight: 700;
+        
+    }
+    .logo-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;  
+    }
+    /***Books on sale***/
+.books-on-sale{
+    position: relative;
+    margin-top: 110px;
+    width: 1076px;
+    height: 442px;
+    top: 88px;
+    left:75px;
+}
+    .books-on-sale > p{
+        text-align: center; 
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+      .background-box{
+        display: flex;
+         padding-left: 28px;
+        align-items:center;
+        position: relative;
+        width: 565px;
+        height: 369px;
+        top:48px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background:linear-gradient(0deg,#000B1CE5, #000B1CE5), url("/asset/images/background-image1.jpeg");
+        background-size:cover;  
+        background-color: #7264D5;
+      }
+       .inner-content{
+        color: white;
+         width: 50%;
+         height: 79%; 
+       }
+       .inner-content > span{
+            font-size: 25px;
+            font-weight: 700;
+            
+       }
+       .inner-content>.author{
+        color:#CCCCCC;        
+        line-height: 34px;
+        font-size: 14.5px;
+       }
+       .inner-content> .para{
+        margin-top: 13px;
+        color:#CCCCCC;        
+        line-height: 21px;
+        font-size: 14.5px;
+       }
+       .price{
+        margin-top: 10px;
+       }
 
+       .img-container{
+        position:relative;
+        left: 70px;
+        bottom:20px;
+       }
+       .img-container>img{
+          display: block;
+          width: 170px;
+          height: 245px;
+          object-fit: cover;
+       }
+       .price-and-buy{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+       }
+       .price{
+        font-size: 32px;
+        font-weight: 700;
+       }
+       .price>s{
+        color:#CCCCCC;
+        font-size: 24px;
+        font-weight: 500;
+       }
+       .buy-now{
+        padding-left: 1.6em;
+        padding-right:1.6em;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        color: white;
+        border-radius: 4px;
+        background-color: #7264D5;
+        text-decoration: none;
+        font-weight: 600;
+    }
