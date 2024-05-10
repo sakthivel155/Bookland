@@ -1,5 +1,22 @@
+@font-face {
+    font-family:Mulish;
+    src: url("/asset/Font/Mulish-VariableFont_wght.ttf");
+}
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+body{
+    font-family: Mulish;
+    
+}
+::placeholder {
+    color:rgb(0, 0, 0); 
+    font-family: Mulish;
+    font-weight: 600;
+  }
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
 }

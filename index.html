@@ -6,47 +6,72 @@
         <meta name="description" content="Book selling app" />
         <meta name="keywords" content="Bookland" />
 		<meta name="author" content="sakthivel" />
-   
         <title>Book Land</title>
-    <!-- style -->
+        <!-- style -->
         <link rel="stylesheet" href="Styles/root.css">
-
-    </head>
+</head>
 <body>
-    <div class="app-container">
-        <header>
-            <nav class="nav-bar">
-                
-                    <img src="./asset/icons/logo.svg" alt="Bookland" >
-                
-                <div class="search-box">
-                   <div class="search-container">
+ <div class="app-container">
+     <!-- Nav bar -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./asset/icons/logo.svg" alt="Bookland" >
+            </div>
+            <div class="search-box">
+                <div class="search-container">
                     <div class="menu-dropdown">
-menu
+                        <span>Menu</span>
+                        <img src="./asset/icons/menudropdown.svg">
                     </div>
-                    <div class="search-bar">
-                        search Book here
-                    </div>
-                    <div>icon</div>
+                 <div class="search-bar">
+                    <input type="text" placeholder="Search Books Here">
+                    <img src="./asset/icons/search-icon.svg">
                  </div>
                 </div>
-                <div class="buttons">
-                    <div class="signin">
-                        <a href="#">Sign in</a>
-                    </div> 
-                    <div class="signup">
-                        <a href="#">Sign up</a>
-                    </div> 
-                     
+            </div>
+            <div class="nav-buttons">
+                <div >
+                    <a class="signin" href="#">Sign in</a>
+                </div> 
+                <div >
+                    <a class="signup" href="#">Sign Up</a>
+                </div> 
+            </div>
+        </nav>
+    </header>
+    <!-- Landing page -->
+    <section class="landing-page">
+        <div class="banner">
+            <div class="text-part">
+                <p class="line1">BACK TO SCHOOL</p>
+                <p class="line2">
+                    <span>Special 60% Off</span>
+                    For Our Student Community</p>
+                <p class="line3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel gravida risus,
+                    pellentesque nullam nec vitae nunc nunc. Dictum tortor enim sed purus. Aliquet lobortis bibendum
+                    mi fusce facilisi nunc. Accumsan quam vel ornare nisl, egestas vehicula in. Et feugiat sed.</p>
+                <div class="homepage-buttons">
+                    <a class="learn-more" href="#">LEARN MORE</a>
+                    <a class="what-they-say" href="#">WHAT THEY SAY</a>
                 </div>
-            </nav>
-        </header>
-        <section>
-landing page
-        </section>
-        <footer>
-
-        </footer>
-    </div>
+            </div>
+            <div class="poster-part">
+                <img src="./asset/images/landing photo.jpeg" alt="the person read a book">
+            </div>
+            <div class="blur-rectangle">
+                  <span>Trusted by<br>
+                        10M+</span>
+            </div>
+        </div>
+    </section>
+    <!-- our partners  -->
+    <section>
+        <!--***** contine here ********-->
+    </section>
+    <!-- footer -->
+    <footer>
+    </footer>
+ </div>
 </body>
 </html>
