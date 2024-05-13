@@ -1,6 +1,6 @@
 @font-face {
     font-family:Mulish;
-    src: url("/Bookland/asset/Font/Mulish-Regular.ttf");
+    src: url("../asset/Font/Mulish-Regular.ttf");
 }
 * {
     margin: 0%;

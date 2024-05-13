@@ -684,3 +684,33 @@ font-size: 9.5px;
     left: 930px;
     top :2290px;
 }
+/***latest-news***/
+.latest-news{
+    height: 53em;
+}
+.news-container{
+    display:inline-block;
+    width:65.5em;
+    height: 38.1em;
+    margin-top: 6.2em;
+    margin-left: 5.6em;
+}
+.latestnews-para{
+    margin-left:203px;
+    text-align: center;
+    width: 643px;
+}
+.latestnews-para > span{
+font-size: 33px;
+font-weight: 800;
+line-height: 18px;
+}
+.latestnews-para > p{
+   margin-top: 27px;
+font-size: 13px;
+font-weight: 500;
+line-height: 19px;
+color:#757575;
+text-align: center;
+
+}
