@@ -1,212 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Book selling app" />
-        <meta name="keywords" content="Bookland" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Book selling app" />
+		<meta name="keywords" content="Bookland" />
 		<meta name="author" content="sakthivel" />
-        <title>Book Land</title>
-        <!-- style -->
-        <link rel="stylesheet" href="Styles/root.css">
-</head>
-<body>
- <div class="app-container">
-     <!-- Nav bar -->
-    <header>
+		<title>Book Land</title>
+		<!-- style -->
+		<link rel="stylesheet" href="Styles/root.css" />
+	</head>
+	<body>
         <nav class="nav-bar">
-            <div class="logo">
-                <img src="./asset/icons/logo.svg" alt="Bookland" >
+            <div>
+                <img src="./asset/icons/logo.svg" alt="Bookland" class="logo"/>
             </div>
-            <div class="search-box">
-                <div class="search-container">
-                    <div class="menu-dropdown">
-                        <span>Menu</span>
-                        <img src="./asset/icons/menudropdown.svg">
-                    </div>
-                 <div class="search-bar">
-                    <input type="text" placeholder="Search Books Here">
-                    <img src="./asset/icons/search-icon.svg">
-                 </div>
+            
+            <div class="search-container">
+                <div class="menu-dropdown">
+                    <span>Menu&nbsp;</span>
+                    <img src="./asset/icons/menudropdown.svg" />
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search Books Here" />
+                    <img src="./asset/icons/search-icon.svg" class="search-icon" />
                 </div>
             </div>
+
             <div class="nav-buttons">
-                <div >
-                    <a class="signin" href="#">Sign in</a>
-                </div> 
-                <div >
-                    <a class="signup" href="#">Sign Up</a>
-                </div> 
+                <div>
+                    <button class="signin" href="#">Sign in</button>
+                </div>
+                <div>
+                    <button class="signup" href="#">Sign Up</button>
+                </div>
             </div>
         </nav>
-    </header>
-    <!-- Landing page -->
-    <section class="landing-page">
-        <div class="banner">
-            <div class="text-part">
-                <p class="line1">BACK TO SCHOOL</p>
-                <p class="line2">
-                    <span>Special 60% Off</span>
-                    For Our Student Community</p>
-                <p class="line3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel gravida risus,
-                    pellentesque nullam nec vitae nunc nunc. Dictum tortor enim sed purus. Aliquet lobortis bibendum
-                    mi fusce facilisi nunc. Accumsan quam vel ornare nisl, egestas vehicula in. Et feugiat sed.</p>
-                <div class="homepage-buttons">
-                    <a class="learn-more" href="#">LEARN MORE</a>
-                    <a class="what-they-say" href="#">WHAT THEY SAY</a>
-                </div>
-            </div>
-            <div class="poster-part">
-                <img src="./asset/images/landing photo.jpeg" alt="the person read a book">
-            </div>
-            <div class="blur-rectangle">
-                  <span>Trusted by<br>
-                        10M+</span>
-            </div>
-        </div>
-    </section>
-    <!-- our partners  -->
-    <section class="our-partners">
-        <p>Our Partners</p>
-        <div class="logo-container">
-            <img src="./asset/icons/livecode-logo1.svg" alt="livecode">
-            <img src="./asset/icons/leesara-logo2.svg" alt="leesara">
-            <img src="./asset/icons/mangr-logo3.svg" alt="mangr">
-            <img src="./asset/icons/zomato-logo4.svg" alt="zomato">
-            <img src="./asset/icons/ragatta-logo5.svg" alt="ragatta">
-        </div>
-    </section>
-    <!-- books on sale  -->
-    <section class="books-on-sale">
-        <p>Books on Sale</p>
-        <div class="background-box1">
-            <div class="inner-content">
-                <span>Battle Drive</span>
-                <p class="author">By Aathi</p>
-                <p class="para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <div class="price-and-buy">
-                    <span class="price">$5 <s>$6.5</s></span> 
-                    <a class="buy-now" href="#">Buy Now</a>
-                </div>
-            </div>
-            <div class="img-container">
-                <img src="./asset/images/profilephoto.jpeg" alt="photo">
-                <div class="image-text">
-                    <span>Battle Drive</span>
-                    <p>Muthu Kumar</p>
-                </div>
-            </div>
-           
-        </div>
-        <div class="background-box2">
-             <div class="book">
-                  <div class="photo-text">
-                    <p>Programming</p>
-                    <img src="./asset/images/profilephoto1.jpeg" alt="">
-                    <div class="text">
-                        <span>Programming</span>
-                        <p >By Muthu</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-                    <div class="price-box">
-                        <p>9.5$</p>
-                        <a href="#">Buy Now</a>
-                      </div> 
-                  </div>
-                  
-                  <div>
-                      
-                  </div>   
-             </div>
-             <div class="book book2">
-                  <div class="photo-text">
-                    <p>Food</p>
-                    <img src="./asset/images/profilephoto2.jpeg" alt="">
-                    <div class="text">
-                        <span>Food</span>
-                        <p >By Nizhar</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-                    <div class="price-box">
-                        <p>9.2$</p>
-                        <a href="#">Buy Now</a>
-                      </div> 
-                  </div>
-                 
-             </div>
-        </div>
-    </section>
-    <!-- services -->
-    <section class="services">
-        <div class ="three-services">
-            <div class="service-box">
-               <img class="icon" src="./asset/icons/quick-delivery.svg" alt="">
-                   <span>Quick Delivery</span>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper <br/> viverra tellus laoreet. Est diam ante sed nisl. </p>
-            </div>
-            <div class="service-box">
-                <img class="icon" src="./asset/icons/secure-payment.svg" alt="">
-                <span>Secure Payment</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper<br/> viverra tellus laoreet. Est diam ante sed nisl. </p>
-            </div>
-            <div class="service-box">
-                <img class="icon" src="./asset/icons/best-quality.svg" alt="">
-                <span>Best Quality</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper<br/> viverra tellus laoreet. Est diam ante sed nisl. </p>
-            </div>
-        </div>
-    </section>
-    <div class="left-top"></div>
-    <div class="left-buttom"></div>
-    <div class="right-top"></div>
-    <div class="right-buttom"></div>
-    <!-- Recommendation page -->
-    <section class="recommendation-page">
-        <div class="recommendation-container">
-            <span>Recommended For You</span>
-            <div class="book-list">
-                <div class="last-image img1">
-                    <span>Ghost House</span>
-                </div>
-                <div class="next-image img2">
-                    <span>Wild Animals</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Leo.</p>
-                </div>
-                <div class="center-image img3">
-                    <span>Space X</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Leo.</p>
-                </div>
-                <div class="next-image img4">
-                    <span>Today Tech</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Leo.</p>
-                </div>
-                <div class="last-image img5">
-                    <span>Sports</span>
-                </div>
-            </div>
-          <div class="bullet-indicator">
-            <div class="unmark"></div>
-            <div class="unmark"></div>
-            <div class="marked"></div>
-            <div class="unmark"></div>
-            <div class="unmark"></div>
-          </div> 
-          <p class="book-name">Space X<br><span>$10</span></p>
-          <a class="add-to-cart" href="#">Add to Cart</a>
-        </div>
-    </section>
-    <!-- latest news -->
-    <section class="latest-news">
-        <div class="news-container">
-           <div class="latestnews-para">
-            <span>Latest News</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo interdum id nunc tincidunt purus odio. Sit in purus nec cursus in ut id. Eget suspendisse est vulputate faucibus mi maecenas tellus. Vitae mi vel porta amet lacus, mattis a imperdiet.</p>
-           </div>
+		
 
-        </div>
-    </section>
-    <!-- footer -->
-    
- </div>
-</body>
+
+
+
+
+			<!-- Landing page -->
+			<section class="landing-page">
+				<div class="banner">
+					<div class="text-part">
+						<p class="line1">BACK TO SCHOOL</p>
+						<p class="line2">
+							<span>Special 60% Off</span>
+							For Our Student Community
+						</p>
+						<p class="line3">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel gravida risus, pellentesque nullam nec vitae nunc nunc. Dictum tortor enim sed purus. Aliquet lobortis bibendum mi fusce facilisi nunc. Accumsan quam
+							vel ornare nisl, egestas vehicula in. Et feugiat sed.
+						</p>
+						<div class="homepage-buttons">
+							<a class="learn-more" href="#">LEARN MORE</a>
+							<a class="what-they-say" href="#">WHAT THEY SAY</a>
+						</div>
+					</div>
+					<div class="poster-part">
+						<img src="./asset/images/landing photo.jpeg" alt="the person read a book" />
+					</div>
+					<div class="blur-rectangle">
+						<span>
+							Trusted by<br />
+							10M+
+						</span>
+					</div>
+				</div>
+			</section>
+			<!-- our partners  -->
+			<section class="our-partners">
+				<p>Our Partners</p>
+				<div class="logo-container">
+					<img src="./asset/icons/livecode-logo1.svg" alt="livecode" />
+					<img src="./asset/icons/leesara-logo2.svg" alt="leesara" />
+					<img src="./asset/icons/mangr-logo3.svg" alt="mangr" />
+					<img src="./asset/icons/zomato-logo4.svg" alt="zomato" />
+					<img src="./asset/icons/ragatta-logo5.svg" alt="ragatta" />
+				</div>
+			</section>
+			<!-- books on sale  -->
+			<section class="books-on-sale">
+				<p>Books on Sale</p>
+				<div class="background-box1">
+					<div class="inner-content">
+						<span>Battle Drive</span>
+						<p class="author">By Aathi</p>
+						<p class="para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+						<div class="price-and-buy">
+							<span class="price">$5 <s>$6.5</s></span>
+							<a class="buy-now" href="#">Buy Now</a>
+						</div>
+					</div>
+					<div class="img-container">
+						<img src="./asset/images/profilephoto.jpeg" alt="photo" />
+						<div class="image-text">
+							<span>Battle Drive</span>
+							<p>Muthu Kumar</p>
+						</div>
+					</div>
+				</div>
+				<div class="background-box2">
+					<div class="book">
+						<div class="photo-text">
+							<p>Programming</p>
+							<img src="./asset/images/profilephoto1.jpeg" alt="" />
+							<div class="text">
+								<span>Programming</span>
+								<p>By Muthu</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+							<div class="price-box">
+								<p>9.5$</p>
+								<a href="#">Buy Now</a>
+							</div>
+						</div>
+
+						<div></div>
+					</div>
+					<div class="book book2">
+						<div class="photo-text">
+							<p>Food</p>
+							<img src="./asset/images/profilephoto2.jpeg" alt="" />
+							<div class="text">
+								<span>Food</span>
+								<p>By Nizhar</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+							<div class="price-box">
+								<p>9.2$</p>
+								<a href="#">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- services -->
+			<section class="services">
+				<div class="three-services">
+					<div class="service-box">
+						<img class="icon" src="./asset/icons/quick-delivery.svg" alt="" />
+						<span>Quick Delivery</span>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper <br />
+							viverra tellus laoreet. Est diam ante sed nisl.
+						</p>
+					</div>
+					<div class="service-box">
+						<img class="icon" src="./asset/icons/secure-payment.svg" alt="" />
+						<span>Secure Payment</span>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper<br />
+							viverra tellus laoreet. Est diam ante sed nisl.
+						</p>
+					</div>
+					<div class="service-box">
+						<img class="icon" src="./asset/icons/best-quality.svg" alt="" />
+						<span>Best Quality</span>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vel scelerisque sed quam id ullamcorper<br />
+							viverra tellus laoreet. Est diam ante sed nisl.
+						</p>
+					</div>
+				</div>
+			</section>
+			<div class="left-top"></div>
+			<div class="left-buttom"></div>
+			<div class="right-top"></div>
+			<div class="right-buttom"></div>
+			<!-- Recommendation page -->
+			<section class="recommendation-page">
+				<div class="recommendation-container">
+					<span>Recommended For You</span>
+					<div class="book-list">
+						<div class="last-image img1">
+							<span>Ghost House</span>
+						</div>
+						<div class="next-image img2">
+							<span>Wild Animals</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur<br />
+								adipiscing elit. Leo.
+							</p>
+						</div>
+						<div class="center-image img3">
+							<span>Space X</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur <br />
+								adipiscing elit. Leo.
+							</p>
+						</div>
+						<div class="next-image img4">
+							<span>Today Tech</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur <br />
+								adipiscing elit. Leo.
+							</p>
+						</div>
+						<div class="last-image img5">
+							<span>Sports</span>
+						</div>
+					</div>
+					<div class="bullet-indicator">
+						<div class="unmark"></div>
+						<div class="unmark"></div>
+						<div class="marked"></div>
+						<div class="unmark"></div>
+						<div class="unmark"></div>
+					</div>
+					<p class="book-name">
+						Space X<br />
+						<span>$10</span>
+					</p>
+					<a class="add-to-cart" href="#">Add to Cart</a>
+				</div>
+			</section>
+			<!-- latest news -->
+			<section class="latest-news">
+				<div class="news-container">
+					<div class="latestnews-para">
+						<span>Latest News</span>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo interdum id nunc tincidunt purus odio. Sit in purus nec cursus in ut id. Eget suspendisse est vulputate faucibus mi maecenas tellus. Vitae mi vel
+							porta amet lacus, mattis a imperdiet.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- footer -->
+		
+	</body>
 </html>

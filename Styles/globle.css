@@ -9,13 +9,15 @@
 }
 body{
     font-family: Mulish;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
     
 }
 ::placeholder {
     color:rgb(0, 0, 0); 
     font-family: Mulish;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 12px;
   }
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
