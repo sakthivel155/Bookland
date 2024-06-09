@@ -1,0 +1,13 @@
+:root{
+    --c-black : hsl(0, 0%, 0%);
+    --c-white : white;
+    --c-lt-gray : #f4f4f4;
+    --c-md-gray : #cccccc;
+    --c-dr-gray : hsla(0, 1%, 37%);
+    --c-op-white : hsla(0, 0%, 100%, 0.3);
+    --c-violet : #7264d5;
+    --c-lt-violet :#e4e0fd;
+}
+
+
+.c-black { color : var(--c-black) }
