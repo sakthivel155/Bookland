@@ -10,8 +10,8 @@
 body{
     font-family: Mulish;
     background-color: white;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 1em;
+    width: 100vw;
     
 }
 ::placeholder {

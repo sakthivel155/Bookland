@@ -1,8 +1,7 @@
-@import url(./home.css);
 @import url(./globle.css);
 @import url(./style-bits.css);
 @import url(./color.css);
 @import url(./custom-components.css);
+@import url(./home.css);
 
-
-@import url(./responsive.css);
+ @import url(./responsive.css); 

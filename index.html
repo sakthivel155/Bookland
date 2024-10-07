@@ -20,7 +20,7 @@
 		<!-- navbar  -->
         <nav class="nav-bar">
             <div>
-                <img src="./asset/icons/logo.svg" alt="Bookland" class="logo"/>
+                <img src="./asset/icons/logo.svg" alt="Bookland"/>
             </div>
             
             <div class="search-container">
@@ -29,8 +29,8 @@
                     <img src="./asset/icons/menudropdown.svg" />
                 </div>
                 <div class="search-bar">
-                    <input type="text" placeholder="Search Books Here" />
-                    <img src="./asset/icons/search-icon.svg" class="search-icon" />
+                    <input type="text" class="default-input" placeholder="Search Books Here" />
+                    <i class='bx bx-search search-icon'></i>
                 </div>
             </div>
 			<button class="default-btn menu-btn ">
@@ -71,9 +71,12 @@
 						</div>
 					</div>
 					<div class="poster-part">
-						<span class="blur-rectangle">
-                          Trus
-						</span>
+						<div class="blur-rectangle">
+							<p>
+								Trusted by 10M+
+							</p>
+						</div>
+						
 					</div>
 					
 				</div>
@@ -92,58 +95,59 @@
 			<!-- books on sale  -->
 			<section class="books-on-sale">
 				<p>Books on Sale</p>
-				<div class="background-box1">
-					<div class="inner-content">
-						<span>Battle Drive</span>
-						<p class="author">By Aathi</p>
-						<p class="para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-						<div class="price-and-buy">
-							<span class="price">$5 <s>$6.5</s></span>
-							<a class="buy-now" href="#">Buy Now</a>
-						</div>
-					</div>
-					<div class="img-container">
-						<img src="./asset/images/profilephoto.jpeg" alt="photo" />
-						<div class="image-text">
+				<div class="grid-container">
+					    <div class="book1">
+						<div class="inner-content">
 							<span>Battle Drive</span>
-							<p>Muthu Kumar</p>
+							<p class="author">By Aathi</p>
+							<p class="para">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+							<div class="price-and-buy">
+								<span class="price">$5 <s>$6.5</s></span>
+								<a class="buy-now" href="#">Buy Now</a>
+							</div>
 						</div>
-					</div>
+						<div class="img-container">
+							<img src="./asset/images/profilephoto.jpeg" alt="photo" />
+							<div class="image-text">
+								<span>Battle Drive</span>
+								<p>Muthu Kumar</p>
+							</div>
+						</div>
+						</div>
+						<div class="book2">
+							<div class="photo-text">
+								<p>Programming</p>
+								<img src="./asset/images/profilephoto1.jpeg" alt="" />
+								<div class="text">
+									<span>Programming</span>
+									<p>By Muthu</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+								<div class="price-box">
+									<p>9.5$</p>
+									<a href="#">Buy Now</a>
+								</div>
+							</div>
+	
+							<div></div>
+						</div>
+						<div class="book2 book3 ">
+							<div class="photo-text">
+								<p>Food</p>
+								<img src="./asset/images/profilephoto2.jpeg" alt="" />
+								<div class="text">
+									<span>Food</span>
+									<p>By Nizhar</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+								<div class="price-box">
+									<p>9.2$</p>
+									<a href="#">Buy Now</a>
+								</div>
+							</div>
+						</div>
 				</div>
-				<div class="background-box2">
-					<div class="book">
-						<div class="photo-text">
-							<p>Programming</p>
-							<img src="./asset/images/profilephoto1.jpeg" alt="" />
-							<div class="text">
-								<span>Programming</span>
-								<p>By Muthu</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							</div>
-							<div class="price-box">
-								<p>9.5$</p>
-								<a href="#">Buy Now</a>
-							</div>
-						</div>
-
-						<div></div>
-					</div>
-					<div class="book book2">
-						<div class="photo-text">
-							<p>Food</p>
-							<img src="./asset/images/profilephoto2.jpeg" alt="" />
-							<div class="text">
-								<span>Food</span>
-								<p>By Nizhar</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							</div>
-							<div class="price-box">
-								<p>9.2$</p>
-								<a href="#">Buy Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
+			
 			</section>
 			<!-- services -->
 			<section class="services">

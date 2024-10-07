@@ -57,6 +57,7 @@
 
     .menu-btn{
         display: inline-block;
+        height: 100%;
     }
 
 }

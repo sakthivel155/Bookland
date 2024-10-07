@@ -6,7 +6,6 @@
   padding: 15px 5%;
 }
 
-/* logo */
 
 /* search Box  */
 .search-container {
@@ -14,9 +13,10 @@
   display: flex;
   width: 500px;
   align-items: center;
-  padding: 12px 15px;
+  padding: 12px 28px;
   background-color: var(--c-lt-gray);
   border-radius: 4px;
+  
 }
 
 .menu-dropdown {
@@ -35,14 +35,12 @@
 
 .search-bar > input {
   width: 100%;
-  border: none;
-  outline: none;
   background-color: var(--c-lt-gray);
 }
 
 .search-icon {
   position: absolute;
-  right: 15px;
+  right: 22px;
   top: 13px;
 }
 
@@ -65,15 +63,15 @@
 .signin {
   background-color: var(--c-lt-gray);
   color: var(--c-black );
-  padding: 12px 14px;
+  padding: 12px 28px;
   border-radius: 4px;
   text-decoration: none;
   border: none;
-  font-weight: 500;
+  font-weight:bold;
 }
 
 .signup {
-  padding: 12px 14px;
+  padding: 12px 28px;
   border-radius: 4px;
   color:var(--c-white);
   font-weight: 500;
@@ -89,7 +87,7 @@
 }
 .banner {
   display: flex;
-  margin: 0 76px;
+  margin: 0 6.5em;
   justify-content: space-between;
   position: relative;
   top:5em;
@@ -97,8 +95,10 @@
 /* Text area */
 .text-part {
   position: relative;
- 
+  height: 100%;
   width: 34em;
+  top:3.5em;
+  
  
 }
 .text-part > .line1 {
@@ -123,7 +123,7 @@
 }
 .text-part > .line3 {
   font-family: Mulish;
-  font-size: 12.5px;
+  font-size: 11.5px;
   line-height: 21.5px;
   color: var(--c-dr-gray);
   height: 76px;
@@ -131,8 +131,9 @@
 }
 /* homepage buttons */
 .homepage-buttons {
+  display: inline-block;
   margin-top: 40px;
-  margin-bottom: 10px;
+  padding: 12px 0;
 }
 .learn-more {
   padding: 12.5px 39px;
@@ -166,15 +167,27 @@
   box-shadow: 6px 6px var(--c-violet);
 }
 /* blur rectangle */
-
+.blur-rectangle{
+  display:inline-block;
+  position: relative;
+  right: 70px;
+  top:22.2em;
+  text-align: center;
+  border-radius: 8px;
+  padding: 18px 24px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  backdrop-filter: blur(5px);
+}
+.blur-rectangle>p{
+ display: inline-block;
+ width: 80px;
+  font-weight: 700;
+  font-size:14px;
+}
 
 /*** our partners ***/
 .our-partners {
-  position: relative;
-  width: 1076px;
-  height: 127px;
-  top: 88px;
-  left: 80px;
+  margin:88px 80px;
 }
 .our-partners > p {
   text-align: center;
@@ -189,13 +202,7 @@
 }
 /***Books on sale***/
 .books-on-sale {
-  position: relative;
-  margin-top: 100px;
-  margin-bottom: 89px;
-  width: 1078px;
-  height: 442px;
-  top: 88px;
-  left: 75px;
+  margin: 75px;
 }
 .books-on-sale > p {
   text-align: center;
@@ -203,24 +210,28 @@
   line-height: 24px;
   font-weight: 700;
 }
-.background-box1 {
+.grid-container{
+  margin-top: 75px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:35px;
+}
+.book1{
+  grid-row-start: 1;
+  grid-row-end: 3;
   display: flex;
   padding-left: 28px;
   align-items: center;
-  position: relative;
-  width: 565px;
-  height: 369px;
-  top: 48px;
   border-radius: 10px;
   background-repeat: no-repeat;
-  background: linear-gradient(0deg, #000b1ce5, #000b1ce5),
+  background: linear-gradient(0deg, hsla(216, 100%, 5%) , #000b1ce5),
     url("../asset/images/background-image1.jpeg");
   background-size: cover;
 }
 .inner-content {
   color: white;
   width: 50%;
-  height: 79%;
 }
 .inner-content > span {
   font-size: 25px;
@@ -243,8 +254,8 @@
 
 .img-container {
   position: relative;
-  left: 70px;
-  bottom: 20px;
+  left: 45px;
+  bottom: 10px;
 }
 .img-container > img {
   display: block;
@@ -296,18 +307,9 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
-.background-box2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 475px;
-  height: 369px;
-  position: relative;
-  left: 603px;
-  bottom: 320px;
-}
-.book {
-  height: 166px;
+
+.book2 {
+ 
   border-radius: 10px;
   background: linear-gradient(
       0deg,
@@ -319,7 +321,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.book2 {
+.book3{
   background: linear-gradient(
       0deg,
       rgba(16, 33, 46, 0.9),
@@ -670,3 +672,14 @@
   color: #757575;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
